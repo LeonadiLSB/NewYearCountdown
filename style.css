@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(bg.jpg);
+}
+
+#clock {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#digits {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    color: white;
+}
+
+#backdrop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgba(0,0,0, 1) 30%,rgba(0,0,0,0) 50%);
+    opacity: 0.6;
+}
+
+.digit {
+    display: inline-block;
+    margin-right: 25px;
+    background: #222;
+    border-radius: 15px;
+    padding: 5px 10px;
+    box-shadow: 0 0 15px 2px #555;
+    width: 200px;
+}
+
+small {
+    font-size: 24px;
+    font-family: 'Open Sans';
+    font-weight: 100;
+}
+
+.digit:last-child {
+    margin-right: 0;
+}
+
+#progress {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 5px;
+}
+
+#bar {
+    height: 100%;
+    background-color: #0072c6;
+    box-shadow: 0 0 5px 2px #31a8ff;
+}
