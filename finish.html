@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
     <head>
         <title>Finished</title>
@@ -49,7 +50,10 @@
     <body>
         <div style="position: fixed; z-index: -99; width: 100%; height: 100%" id="ytBG">
         </div>
-        <audio src="music.mp3" id="bgMusic"></audio>
+        <audio id="bgMusic">
+	    <source src="music.mp3" type="audio/mp3">
+	    <source src="music.ogg" type="audio/ogg">	
+	</audio>
         <div id="container">
             <div id="inner">
                 <div id="content">

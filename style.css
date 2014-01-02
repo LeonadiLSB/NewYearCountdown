@@ -44,10 +44,22 @@ body {
     width: 200px;
 }
 
-small {
+.sdigit {
+    display: inline-block;
+    margin-right: 10px;
+    background: #222;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0 0 5px 1px #555;
+    width: 30px;
+	text-align: center;
+}
+
+p {
     font-size: 24px;
     font-family: 'Open Sans';
     font-weight: 100;
+    margin: 0;
 }
 
 .digit:last-child {
@@ -65,4 +77,14 @@ small {
     height: 100%;
     background-color: #0072c6;
     box-shadow: 0 0 5px 2px #31a8ff;
+}
+
+#currentTime {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-size: 24px;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    color: white;
 }
