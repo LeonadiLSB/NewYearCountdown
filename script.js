@@ -1,4 +1,4 @@
-var newYearDate = new Date("Jan 1, 2015 00:00:00");
+var newYearDate = new Date("Jan 1, 2017 00:00:00");
 function addLeadingZeros(number, length) {
     var num = '' + number;
     while (num.length < length) num = '0' + num;
